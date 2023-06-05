@@ -1,0 +1,262 @@
+/* NAV
+------------------------- */
+
+.navbar-brand img { max-width: 100px; }
+
+.bg-dark { background: #212C41!important; }
+
+
+
+
+/* ESTILOS TITULOS
+-------------------------------------------------- */
+
+.titulo-gral {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1rem;
+    
+}
+.titulo-gral span {
+    display: block;
+    font-weight: 700px;
+    font-size: 2.2rem;
+}
+
+.titulos{
+font-weight: 100px;
+}
+
+/* FOOTER
+-------------------------------------------------- */
+
+#main-footer {
+    background: #212C41;
+    color: #fff;
+    padding: 1.5rem;
+   
+}
+
+.contenedor-footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.foofinal{
+  text-align: center;
+  margin-left: 7%;
+  padding-top: 2%;
+ 
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+
+  
+}
+    
+/* Botones de Redes Sociales
+-------------------------------------------------- */
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+    
+.buttons a:hover {
+    transform: scale(1.2);
+}
+
+
+/* Whatsapp Flotante
+-------------------------------------------------- */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+  
+.whatsapp-float img {
+    width: 30px;
+    margin-top: 15px;
+}
+  
+
+p{
+    text-align: justify;
+}
+
+.metododepago{
+    text-align: center;
+}
+
+
+
+.cubo{
+    padding-top: 10%;
+    margin-bottom: 7%;
+}
+
+.products{
+    position: relative;
+}
+
+.left-button,
+.right-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #212C41;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.left-button {
+    left: 0;
+}
+
+.right-button {
+    right: 0;
+}
+
+.products .product{
+    background: rgb(134, 231, 222);
+    width: 50%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgb(224, 109, 64);
+    margin: 2%;
+}
+
+.cubo .titulos{
+    color: #0c2916;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.product-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 500px;
+}
+
+.product {
+    flex: 200px 0 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.products .product img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid turquoise;
+    margin-bottom: 10px;
+   
+}
+
+.contenido-texto-product{
+
+    width: 60%;
+    height: 200px;
+   
+}
+
+
+
+h4{
+  font-size: 18px;
+ 
+  
+}
+
+p{
+ margin-top: 10px;
+}
+
+.product span {
+    font-weight: bold;
+}
+
+.product button {
+    background-color: green;
+    color: azure;
+    padding: 8px 16px;
+    text-align: center;
+    display: flex;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.varios{
+    background-color: white;
+}
+
+.varios p{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+
+.productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    column-gap: 1.5rem;
+}
+
+.productoImgChica{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+
+
+.productoImgChica img{
+    width: 100%;
+    height: 65px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.productoImgChica img:hover{
+    opacity: 1;
+}
+
+.productoImgGrande img{
+    width: 100%;
+    height: 400px;
+}
